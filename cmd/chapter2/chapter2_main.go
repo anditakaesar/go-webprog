@@ -12,7 +12,7 @@ func main() {
 	mux := http.NewServeMux()
 	files := http.FileServer(http.Dir(config.Static))
 	mux.Handle("/static/", http.StripPrefix("/static/", files))
-
+	//home/andita/workspace/go/go-webprog/cmd/chapter4/421
 	//
 	// all route patterns matched here
 	// route handler functions defined in other files
