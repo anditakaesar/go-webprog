@@ -1,0 +1,16 @@
+GET http://localhost:8080/body HTTP/1.1
+
+first_name=andita%20kaesar&last_name=fahmi
+
+###
+POST http://localhost:8080/json HTTP/1.1
+Content-Type: application/json
+
+{
+    "Test": "Some text sent using JSON",
+    "Hello": "Holla"
+}
+
+###
+POST http://localhost:8080/json HTTP/1.1
+Content-Type: application/json
