@@ -6,7 +6,7 @@
             "type": "go",
             "request": "launch",
             "mode": "debug",
-            "program": "${workspaceFolder}/cmd/chapter6/631",
+            "program": "${workspaceFolder}/cmd/chapter7/760",
         }
     ]
 }
