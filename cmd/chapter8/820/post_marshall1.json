@@ -1,0 +1,20 @@
+{
+    "id": 1,
+    "content": "Hello world",
+    "author": {
+        "id": 2,
+        "name": "Andita"
+    },
+    "comments" : [
+        { 
+            "id": 3,
+            "content": "Wow, good article!",
+            "author": "Kaesar"
+        },
+        {
+            "id": 4,
+            "content": "Like the explanation, thanks!",
+            "author": "Fahmi"
+        }
+    ]
+}
